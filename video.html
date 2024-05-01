@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Видео</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </head>
+  <body>
+    <button class="backButton" onclick="goBack()">Назад</button>
+    <video controls width="500">
+      <source
+        src="http://192.168.0.6/VideoOut/v.strane.lovushek.1_part1.webm"
+        type="video/webm"
+      />
+    </video>
+    <video controls width="500">
+        <source
+          src="http://192.168.0.6/VideoOut/v.strane.lovushek.1_part2.webm"
+          type="video/webm"
+        />
+      </video>
+      <video controls width="500">
+        <source
+          src="http://192.168.0.6/VideoOut/v.strane.lovushek.4_part1.webm"
+          type="video/webm"
+        />
+      </video>
+      <video controls width="500">
+          <source
+            src="http://192.168.0.6/VideoOut/v.strane.lovushek.4_part2.webm"
+            type="video/webm"
+          />
+        </video>
+  </body>
+</html>

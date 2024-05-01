@@ -80,3 +80,9 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+video {
+    display:flex;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
