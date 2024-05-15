@@ -32,6 +32,23 @@ body {
     margin-bottom: 10px;
 }
 
+.labs {
+    height: 90vh;
+    margin:0 auto; 
+    width: 80vw;
+    margin-bottom: 60px;
+}
+
+.labs a {
+    text-decoration: none;
+    color: #333; 
+    font-size: 40px; 
+}
+
+.labs a:hover {
+    color: #666; 
+}
+
 .title {
     font-size: 50px;
     font-weight: bold;
